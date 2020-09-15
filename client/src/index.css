@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("fonts/NunitoSans-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Nunito Sans";
+}
