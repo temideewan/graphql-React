@@ -8,6 +8,8 @@ const cors = require("cors");
 
 const app = express();
 
+const port = process.env.PORT || 4000;
+
 // Allow cross origin requestOptions
 app.use(cors());
 mongoose.connect(
@@ -30,6 +32,6 @@ app.use(
   })
 );
 
-app.listen(4000, () => {
+app.listen(port, () => {
   console.log("listening for request on port 4000...");
 });
